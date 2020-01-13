@@ -1,3 +1,7 @@
+@import url('./fonts/fonts.css');
+
+
+/* Reset styles */
 html, body, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -139,6 +143,7 @@ body {
 
 .menu-list{
     display: flex;
+    font-family: Lora;
     font-size: 14px;
 }
 
