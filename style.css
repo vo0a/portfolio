@@ -246,6 +246,15 @@ body {
     line-height: 1.6;
 }
 
+.project-item {
+    margin-bottom: 10px;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 
 
 
