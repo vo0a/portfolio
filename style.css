@@ -255,6 +255,43 @@ body {
     font-weight: 700;
 }
 
+/* Footer */
+.footer {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.contact-title {
+    margin-bottom: 24px;
+    font-family: 'Playfair Display';
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.address {
+    display: block;
+}
+
+.contact-list {
+    margin-bottom: 24px;
+    font-family: Lora;
+    font-size: 13px;
+    text-align: center;
+}
+
+.contact-item {
+    line-height: 1.6;
+    margin-bottom: 4px;
+}
+
+.copyright {
+    display: block;
+    padding: 24px;
+    font-size: 12px;
+}
 
 
 
