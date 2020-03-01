@@ -4,16 +4,19 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <title>DAROM</title>
+        <script src="https://kit.fontawesome.com/dfbd54160d.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container">
+            <a class="a11y skip-link" href="#content">본문 바로가기</a>
             <header class="header">
                 <div class="hero"></div>
                 <div class="hero"></div>
                 <div class="hero"></div>
-                <div id="navbar" class="navbar">
+                <div class="navbar">
                     <div class="navbar-inner">
                         <h1 class="logo"><a href="/">darom</a></h1>
+                        <button id="menu-button" class="menu-button" type="button"><i class="fas fa-bars 7x"></i></button>
                         <nav class="nav">
                             <ul class="menu-list">
                                 <li class="menu-item"><a href="#about">About</a></li>
@@ -30,7 +33,7 @@
                     <p class="caption">DEVELOPMENT PORTFOLIO</p>
                 </div>
             </header>
-            <main class="main">
+            <main id="content" class="main">
                 <section class="section about">
                     <h2 class="section-title">About</h2>
                     <div class="section-content">
