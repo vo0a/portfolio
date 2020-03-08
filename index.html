@@ -13,11 +13,11 @@
                 <div class="hero"></div>
                 <div class="hero"></div>
                 <div class="hero"></div>
-                <div class="navbar">
+                <div id="navbar" class="navbar">
                     <div class="navbar-inner">
                         <h1 class="logo"><a href="/">darom</a></h1>
                         <button id="menu-button" class="menu-button" type="button"><i class="fas fa-bars 7x"></i></button>
-                        <nav class="nav">
+                        <nav id="nav" class="nav">
                             <ul class="menu-list">
                                 <li class="menu-item"><a href="#about">About</a></li>
                                 <li class="menu-item"><a href="#biography">Biography</a></li>
@@ -34,7 +34,7 @@
                 </div>
             </header>
             <main id="content" class="main">
-                <section class="section about">
+                <section id="about" class="section about">
                     <h2 class="section-title">About</h2>
                     <div class="section-content">
                         <dl class="definition-list">
@@ -47,7 +47,7 @@
                         </dl>
                     </div>
                 </section>
-                <section class="section biography">
+                <section id="biography" class="section biography">
                     <h2 class="section-title">Biography</h2>
                     <div class="section-content">
                         <dl class="definition-list">
@@ -60,7 +60,7 @@
                         </dl>
                     </div>
                 </section>
-                <section class="section skills">
+                <section id="skills" class="section skills">
                     <h2 class="section-title">Skills</h2>
                     <ul class="section-content category-list">
                         <li class="category-item">
@@ -95,7 +95,7 @@
                         </li>
                     </ul>
                 </section>
-                <section class="section projects">
+                <section id="projects" class="section projects">
                     <h2 class="section-title">Projects</h2>
                     <div class="section-content">
                         <ul class="project-list">
@@ -112,7 +112,7 @@
                 </section>
             </main>
             <footer class="footer">
-                <div class="contact">
+                <div id="contact" class="contact">
                     <h2 class="contact-title">Contact</h2>
                     <adress class="address">
                         <ul class="contact-list">
@@ -126,6 +126,11 @@
                     </small>
                 </div>
             </footer>
+            <button id="floating-button" class="floating-button active" type="button">
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>
+            </button>
         </div>
-    </body>    
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="main.js"></script>
+    </body>
 </html>
