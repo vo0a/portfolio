@@ -11,7 +11,7 @@
      const navbar = document.querySelector('#navbar');
      const floatingButton = document.querySelector('#floating-button');
 
-     // main 영역과 교차 영영 발생 시 navbar와 floating-button 스타일 변경
+     // main 영역과 교차 영역 발생 시 navbar와 floating-button 스타일 변경
      const io = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
