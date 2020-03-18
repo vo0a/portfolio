@@ -16,5 +16,5 @@
 - [x]  Font Awesome으로 아이콘 사용하기
 - [x]  스크롤 애니메이션
 - [x]  반응형 레이아웃
-- [ ]  Netlify로 배포하기
+- [x]  Netlify로 배포하기
 
